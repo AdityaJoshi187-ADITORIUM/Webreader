@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
 form {
@@ -20,6 +21,7 @@ input {
 
 input::placeholder {
     padding: 10px;
+    width: 70%;
 }
 
 button {
@@ -28,4 +30,7 @@ button {
     border-radius: 20px;
     background-color: #000;
     color: white;
+}
+button:hover {
+    background-color: #45a049;
 }
